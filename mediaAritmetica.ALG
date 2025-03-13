@@ -9,11 +9,15 @@ var
 notas: vetor[1..5] de inteiro
 cont: inteiro
 media: real
+nome: caractere
 
 inicio
 
+escreva("Digite o nome do aluno: ")
+leia(nome)
+
 para cont de 1 ate 5 faca
-    escreva ("Digite a ",cont," nota do aluno: ")
+    escreva ("Digite a ",cont,"° nota do ", nome, ": ")
     leia(notas[cont])
 fimpara
 
