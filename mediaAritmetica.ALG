@@ -24,10 +24,10 @@ fimpara
 media <- (notas[1] + notas[2] + notas[3] + notas[4] + notas[5]) / 5
 
 se (media >= 60) entao
-    escreval(nome, "Foi aprovado")
+    escreval(nome, " foi aprovado")
 fimse
 se (media <= 59) entao
-        escreval(nome, "Está de recuperacao")
+        escreval(nome, " está de recuperacao")
     fimse
 
 
