@@ -21,14 +21,11 @@ leia(idade)
 escreva("Digite o seu gênero: ")
 leia(genero)
 
-se (idade >= 60 e genero = "F" ou "f") entao
+se (idade >= 60) e (genero = "F" ou "f") entao
     escreva("A senhora, ", nome, ", está apta para a solicitação de recursos previdenciários")
-senao   
+senao 
     escreva("A senhora, ", nome, ", não está apta para a solicitação de recursos previdenciários")
+fimse
 
-se (genero != "M" ou "m") entao
-    escreva("O senhor, ", nome, ", não está apto para a solicitação de recursos previdenciários")
-fimse
-fimse
 
 fimalgoritmo
