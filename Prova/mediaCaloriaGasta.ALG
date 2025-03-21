@@ -31,6 +31,8 @@ escolha exercicio
         escreval("Considerando que a natação gasta em media 10 calorias por minuto, você gastou: ", (12 * min), " calorias")
     caso "4" 
         escreval("Considerando que a corrida gasta em media 8.5 calorias por minuto, você gastou: ", (8.5 * min), " calorias")
+    outrocaso
+        escreva("Opção invalida tente novamente")
     
 
 fimescolha

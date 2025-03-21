@@ -86,8 +86,8 @@ escolha fruta
         escreval("Benefício: Boa para o sistema digestivo, rica em fibras.")
         escreval("Origem: Europa e Ásia.")
         escreval("Curiosidade: As peras podem ser armazenadas em temperaturas mais frias para durar mais tempo.")
-    
-
+    outrocaso
+        escreva("Opção invalida tente novamente")
 fimescolha
 
 fimalgoritmo

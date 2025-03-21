@@ -7,8 +7,8 @@ algoritmo "Parcela"
 var
 
 
-forma: caracter
-valor: real
+    forma: caracter
+    valor: real
 
 inicio
 
@@ -28,7 +28,8 @@ escolha forma
         escreval("O valor da parcela em 5 vezes sem juros fica: ", (valor/5))
     caso "3"
         escreval("O valor da parcela em dez vezes com 20% em cima do valor fica: ", ((((valor*20)/100)+valor))/10)
-
+    outrocaso
+        escreva("Opção invalida tente novamente")
 fimescolha
 
 fimalgoritmo
