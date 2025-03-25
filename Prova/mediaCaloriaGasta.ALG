@@ -26,11 +26,11 @@ escolha exercicio
     caso "1"
         escreval("Considerando que a corrida gasta em media 10.92 calorias por minuto, você gasatou: ", (10.92 * min), " calorias")
     caso "2" 
-        escreval("Considerando que a Caminhada gasta em media 5 calorias por minuto, você gasatou: ", (5 * min), " calorias")
+        escreval("Considerando que a caminhada gasta em media 5 calorias por minuto, você gasatou: ", (5 * min), " calorias")
     caso "3" 
-        escreval("Considerando que a natação gasta em media 10 calorias por minuto, você gastou: ", (12 * min), " calorias")
+        escreval("Considerando que a natação gasta em media 12 calorias por minuto, você gastou: ", (12 * min), " calorias")
     caso "4" 
-        escreval("Considerando que a corrida gasta em media 8.5 calorias por minuto, você gastou: ", (8.5 * min), " calorias")
+        escreval("Considerando que o ciclismo gasta em media 8.5 calorias por minuto, você gastou: ", (8.5 * min), " calorias")
     outrocaso
         escreva("Opção invalida tente novamente")
     
